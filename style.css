@@ -254,4 +254,32 @@ header {
 }
 
 /* footer section */
+.footer-container{
+  padding: 30px;
+  justify-content: flex-start;
+  padding-block: 60px;
+  justify-content: space-between;
+}
+footer{
+  background-color: #ebf2fa;
+}
+.footer-container > .flex{
+  justify-content: space-around;
 
+}
+.link-column{
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* sub-footer section */
+.sub-footer{
+  padding: var(--padding-inline-section);
+  
+  background-color: #b9cde4;
+
+}
+.sub-footer-container {
+  justify-content: center;
+  gap: 30px;
+}
