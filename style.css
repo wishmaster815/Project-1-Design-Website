@@ -214,6 +214,7 @@ header {
 /* Example Section */
 .example-area{
     justify-content: space-between;
+    margin-block: 50px;
 }
 .example-card{
     width: 23%;
@@ -223,11 +224,34 @@ header {
     background-color: black;
     background-image:url(assets/asset\ 36.jpeg);
     background-size: cover;
+    border-radius: 10px;
+
 }
+.example-card:hover{
+  box-shadow: 0 0 20px black;
+  transition: 0.2s ease-out;
+}
+
 .card-text{
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    right: 20px;
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      right: 20px;
     color: white;
 }
+
+/* cta section */
+.cta-section> .flex{
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  background-color: #1D5B79;
+}
+.cta-container{
+  padding-block: 100px;
+  color: white;
+}
+
+/* footer section */
+
