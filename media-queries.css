@@ -1,4 +1,5 @@
 @media screen and (max-width: 991px) {
+
   h3 {
     font-size: 1.2rem;
   }
@@ -22,6 +23,9 @@
   .logos {
     justify-content: space-evenly;
     gap: 20px;
+  }
+  .cta-container .primary-button{
+    width: 90%;
   }
 }
 
